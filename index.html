@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>0/1 Knapsack Step-by-Step</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>0/1 Knapsack Simulator</h1>
+
+    <div class="input-group">
+      <input id="weights" placeholder="Weights (e.g. 2,3,4)" />
+      <input id="values" placeholder="Profit (e.g. 4,5,6)" />
+      <input id="capacity" placeholder="Capacity (e.g. 5)" type="number" />
+      <button onclick="initialize()">Start Simulation</button>
+    </div>
+
+    <div id="itemTable"></div>
+
+    <div id="tables"></div>
+    <div id="message"></div>
+
+    <div style="text-align:center; margin-top: 20px;">
+      <button id="nextBtn" onclick="nextRow()" style="display:none;">Next Step</button>
+      <button id="resetBtn" onclick="resetSimulation()" style="display:none;">Reset</button>
+    </div>
+
+    <script src="script.js"></script>
+  </div>
+</body>
+</html>
