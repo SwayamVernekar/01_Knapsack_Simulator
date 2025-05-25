@@ -2,6 +2,9 @@
 
 This project is a simple web app that shows how the **0/1 Knapsack problem** is solved using **dynamic programming**, step by step.
 
+## 🔗 Live Demo  
+[Click here to try the simulator](https://swayamvernekar.github.io/01_Knapsack_Simulator/)
+
 ## 📌 What It Does
 
 - Takes input for item **weights**, **profits**, and **knapsack capacity**
